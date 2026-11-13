@@ -10,7 +10,7 @@ body{
     font-family: "Roboto", sans-serif;
 }
 .nav{
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,10 +22,16 @@ body{
     gap: 10px;
 }
 .logo span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 32px;
     color: #FFAD4C;
 }
 .logo p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 32px;
     color: #3A3A3A;
 }
@@ -61,7 +67,7 @@ select{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 110vh; 
+    height: 90vh; 
 }
 .first-left{
     display: flex;
@@ -76,7 +82,7 @@ select{
 .box{
     background: #F8F8F8C4;
     backdrop-filter: blur(3px);
-    height: 420px;
+    height: 400px;
     width: 645px;
     border-radius: 16px;
     display: flex;
@@ -101,7 +107,7 @@ select{
 }
 .f-button{
     height: 58px;
-    width: 196px;
+    width: 200px;
     background-color: #FFAD4C;
     font-size: 20px;
     display: flex;
@@ -118,7 +124,7 @@ select{
     right: 50px;
 }
 .first-right img{
-    height: 600px;
+    height: 580px;
     width: 800px;
 }
 .f-navi {
@@ -131,19 +137,17 @@ select{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: absolute;
-    bottom: 1px; */
 }  
 
 /* second page */
 
 .second-page{
-    height: 40vh;
+    height: 25vh;
 }
 .sec-title{
     color: #4B4B4B;
     font-size: 24px;
-    height: 10vh;
+    height: 50px;
     text-align: center;
 }
 .sec-img{
@@ -159,7 +163,7 @@ select{
     display: flex;
     justify-content: center;
     gap: 40px;
-    height: 110vh;
+    height: 100vh;
 }
 .th-title p{
     font-weight: bold;
@@ -321,18 +325,16 @@ select{
 /* footer */
 
 .footer{
-    height: 70vh;
+    height: 35vh;
     background-color:rgb(165, 98, 67);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 .foot-first{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
 }
 .foot-content{
     height: 150px;
@@ -342,14 +344,14 @@ select{
     height: 90px;
     width: 50px;
     color: #FFFFFF;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
 }
 .foot-content p{
     margin-top: 10px;
     height: 56px;
     width: 500px;
-    font-size: 20px;
+    font-size: 18px;
     color: #FFFFFF;
 }
 .foot-email p{
@@ -359,24 +361,25 @@ select{
     background: none;
     border: solid 1px #FFFFFF;
     border-radius: 8px;
-    height: 60px;
+    height: 50px;
     width: 400px;
+    font-size: 15px;
     background-color: #F9F6F1  ;
 } 
 .foot-email button{
-    margin-left: 50px;
+    margin-left: 100px;
     background: none;
     border: none;
     border-radius: 8px;
-    height: 60px;
-    width: 170px;
+    height: 50px;
+    width: 150px;
     background-color: #FFAD4C;
     color: #FFFFFF;
-    font-size: 24px; 
+    font-size: 20px; 
 }
  
 .foot-last{
-    height: 30vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -403,7 +406,7 @@ select{
 @media(min-width:300px) and (max-width:768px){
 /* nav bar */
 .nav{
-    height: 50vh;
+    height: 400px;
     display: flex;
     justify-content:center;
     gap: 40px;
@@ -461,7 +464,7 @@ select{
     flex-direction: column;
     flex-wrap: wrap;
     height: auto; 
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .first-left{
     height: auto;
@@ -636,7 +639,7 @@ select{
 /* fourth page */
 
 .fourth-page{
-    margin-top: 150px;
+    margin-top: 130px;
     height: auto;
 }
 .four-one{
@@ -741,7 +744,7 @@ select{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 45vh;
+    height: auto;
     width: 90%;
 }
 .foot-content{
@@ -753,13 +756,13 @@ select{
     height: 90px;
     width: 50px;
     color: #FFFFFF;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: bold;
 }
 .foot-content p{
     height: 60px;
     width: 90%;
-    font-size: 18px;
+    font-size: 16px;
     color: #FFFFFF;
 }
 .foot-email{
@@ -773,22 +776,25 @@ select{
     background: none;
     border: solid 1px #FFFFFF;
     border-radius: 8px;
-    height: 60px;
+    height: 40px;
     width: 100%;
-    background-color: #F9F6F1  ;
+    font-size: 15px;
+    background-color: #F9F6F1;
+    margin-bottom: 10px;
 } 
 .foot-email button{
     background: none;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     height: 40px;
     width: 120px;
     background-color: #FFAD4C;
     color: #FFFFFF;
-    font-size: 20px; 
-    margin-right: 10px;
+    font-size: 18px; 
 }
 .foot-last{
+    margin-top: 20px;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -807,6 +813,8 @@ select{
     color: #FFFFFF;
 }
 .foot-right{
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
